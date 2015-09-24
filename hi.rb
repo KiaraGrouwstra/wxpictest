@@ -11,6 +11,7 @@ get '/awesome.jpg' do
   # s
   # email s
   send_file('./awesome.jpg', :disposition => 'inline')
+  # redirect 'http://betterqc.com/icon.php', 302
 end
 
 def email(str)
