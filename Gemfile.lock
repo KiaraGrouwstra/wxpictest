@@ -4,6 +4,8 @@ GEM
     mail (2.6.3)
       mime-types (>= 1.16, < 3)
     mime-types (2.4.3)
+    pony (1.11)
+      mail (>= 2.0)
     rack (1.6.4)
     rack-protection (1.5.3)
       rack
@@ -18,4 +20,5 @@ PLATFORMS
 
 DEPENDENCIES
   mail
+  pony
   sinatra
